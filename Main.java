@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Veiculo veiculo1 = new Carro("Toyota", "Corolla", 2023, 150.00, 4);
-        Veiculo veiculo2 = new Motocicleta("Honda", "CB 500F", 2022, 90.00, 500);
+        Veiculo veiculo1 = new Carro("Fiat", "Punto", 2008, 100.00, 4);
+        Veiculo veiculo2 = new Motocicleta("Honda", "Hornet", 2014, 90.00, 500);
 
         System.out.println("--- DADOS INICIAIS DOS VEÍCULOS ---");
         veiculo1.exibirInformacoes();
